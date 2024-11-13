@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Library Management System</h1>
+      <div>
+        <div id="available_books">
+          <h2>Available Books</h2>
+        </div>
+        <div id="borrowed_books">
+          <h2>Borrowed Books By User</h2>
+        </div>
+      </div>
+      <div>
+        <div>
+          <form onsubmit="createUser(event)">
+            <h2>Create User/Member</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter name" required />
+            <label for="membershipId">Membership ID (optional):</label>
+            <input
+              type="text"
+              id="membershipId"
+              placeholder="Enter membership ID"
+            />
+            <button type="submit">Create User/Member</button>
+          </form>
+        </div>
+        <div>
+          <h2>Borrow a Book</h2>
+          <select name="" id=""></select>
+          <select name="" id=""></select>
+          <button>Borrow Book</button>
+        </div>
+        <div>
+          <h2>Return a Book</h2>
+          <select name="" id=""></select>
+          <select name="" id=""></select>
+          <button>Return Book</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
