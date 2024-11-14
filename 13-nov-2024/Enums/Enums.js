@@ -56,3 +56,6 @@ var countBooksByGenre = function (booksList) {
     });
 };
 countBooksByGenre(BookDb);
+function fun(x, y) {
+    return x;
+}
