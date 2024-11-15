@@ -1,0 +1,7 @@
+.item {
+  display: flex;
+  height: 20px;
+  width: 600px;
+  justify-content: space-between;
+  padding: 10px;
+}
