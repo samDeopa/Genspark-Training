@@ -68,7 +68,7 @@ function App() {
         </button>
       </div>
 
-      <table style={{ border: "2px solid white" }}>
+      <table style={{ border: "2px solid white", width: "28rem" }}>
         <thead>
           <tr>
             <th>Cutomer Name</th>

@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.inputBox div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+table td tr {
+  border: "2px solid grey";
+}
