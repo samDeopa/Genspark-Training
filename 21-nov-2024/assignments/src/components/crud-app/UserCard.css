@@ -1,0 +1,20 @@
+.user-card {
+  display: flex;
+  background-color: #eeeeee;
+  height: 300px;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  color: #393e46;
+  box-shadow: 10px 10px;
+}
+
+.user-card img {
+  border: 4px solid;
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}

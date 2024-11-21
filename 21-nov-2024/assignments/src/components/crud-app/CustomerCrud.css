@@ -1,0 +1,22 @@
+.input-form {
+  display: flex;
+  padding: 40px;
+  background-color: grey;
+  flex-direction: column;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.customer-display {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.top-customer-display {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
