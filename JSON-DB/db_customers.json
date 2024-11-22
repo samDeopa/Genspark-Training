@@ -12,7 +12,7 @@
     {
       "CustomerId": 2,
       "Name": "Jane Smith",
-      "City": "Los Angeles",
+      "City": "New York",
       "ContactNumber": "9876543210",
       "Year": 2023,
       "Photo": "https://randomuser.me/api/portraits/women/2.jpg",
@@ -21,7 +21,7 @@
     {
       "CustomerId": 3,
       "Name": "Michael Brown",
-      "City": "Chicago",
+      "City": "New York",
       "ContactNumber": "5647382910",
       "Year": 2022,
       "Photo": "https://randomuser.me/api/portraits/men/3.jpg",
@@ -29,7 +29,7 @@
     },
     {
       "CustomerId": 4,
-      "Name": "Emily Davis",
+      "Name": "New York",
       "City": "Houston",
       "ContactNumber": "1029384756",
       "Year": 2023,

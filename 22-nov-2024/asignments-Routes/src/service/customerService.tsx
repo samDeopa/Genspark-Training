@@ -44,7 +44,15 @@ const getCustomersByCity = async (city: string): Promise<CustomerModel[]> => {
   console.log(response);
   return response.data;
 };
-
+const getPaginatedCustomer = async (
+  page: number,
+  limit: number
+): Promise<CustomerModel[]> => {
+  const response = await axios.get(
+    `http://localhost:4000/customers?_page=${page}&_limit=${limit}`
+  );
+  return response.data;
+};
 export const customerService = {
   getAllCustomers,
   getCustomerById,
@@ -52,4 +60,5 @@ export const customerService = {
   deleteCustomer,
   getTopCustomers,
   getCustomersByCity,
+  getPaginatedCustomer,
 };
