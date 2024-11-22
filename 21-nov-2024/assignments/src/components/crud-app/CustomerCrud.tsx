@@ -13,6 +13,10 @@ const CustomerCrud = () => {
   const [customerList, setCustomerList] = useState<CustomerModel[]>([]);
   const [topCustomers, setTopCustomers] = useState<CustomerModel[]>([]);
   const [cityList, setCityList] = useState<string[]>([]);
+  const [selectedCity, setSelectedCity] = useState<string>("None");
+  const [customersByCityList, setCustomersByCityList] = useState<
+    CustomerModel[]
+  >([]);
   type CustomerActions =
     | { type: "setId"; customerId: number }
     | { type: "setName"; name: string }
@@ -74,11 +78,11 @@ const CustomerCrud = () => {
 
   useEffect(() => {
     fetchTopCustomers();
+    getAllCities();
   }, [customerList]);
   const fetchCustomers = async () => {
     const res = await customerService.getAllCustomers();
     setCustomerList(res);
-    getAllCities();
   };
 
   const fetchTopCustomers = async () => {
@@ -90,6 +94,7 @@ const CustomerCrud = () => {
     const set = new Set<string>();
     customerList.forEach((customer) => set.add(customer.City));
     setCityList(Array.from(set));
+    console.log(set);
   };
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -108,11 +113,24 @@ const CustomerCrud = () => {
   };
 
   const handleDelete = (id: number) => {
+    if (!window.confirm("Are you sure you want to Delete the Customer")) {
+      return;
+    }
     customerService.deleteCustomer(id).then((res) => {
       alert(` Customer Deleted from the server successfully.`);
       fetchCustomers();
     });
     fetchCustomers().then(() => clearFields());
+  };
+  const handleSelectCity = (city: string) => {
+    setSelectedCity(city);
+    if (city === "None") {
+      setCustomersByCityList([]);
+    } else {
+      customerService.getCustomersByCity(city).then((res) => {
+        setCustomersByCityList([...res]);
+      });
+    }
   };
 
   return (
@@ -200,13 +218,54 @@ const CustomerCrud = () => {
           <button type="submit">Add Customer</button>
         </form>
         <div>
-          <h1>Top 5 Customers </h1>
-          <div className="top-customer-display">
-            {topCustomers.map((customer) => (
-              <CustomerCard customer={customer} handleDelete={handleDelete} />
+          <select
+            name=""
+            id=""
+            onChange={(e) => handleSelectCity(cityList[e.target.selectedIndex])}
+          >
+            {" "}
+            <option value={"None"} onChange={() => setSelectedCity("None")}>
+              None
+            </option>
+            {cityList.map((city) => (
+              <option value={city} id={city}>
+                {city}
+              </option>
             ))}
-          </div>
+          </select>
+          <button
+            onClick={() => {
+              setSelectedCity("None");
+              setCustomersByCityList([]);
+            }}
+          >
+            Display Top 5 Customers
+          </button>
         </div>
+        {selectedCity != "None" ? (
+          <div>
+            <div>
+              <h1>{selectedCity} Customers </h1>
+              <div className="top-customer-display">
+                {customersByCityList.map((customer) => (
+                  <CustomerCard
+                    customer={customer}
+                    handleDelete={handleDelete}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div>
+            <h1>Top 5 Customers </h1>
+            <div className="top-customer-display">
+              {topCustomers.map((customer) => (
+                <CustomerCard customer={customer} handleDelete={handleDelete} />
+              ))}
+            </div>
+          </div>
+        )}
       </div>
       <h1>Customer List</h1>
       <div className="customer-display">

@@ -39,10 +39,15 @@ const getTopCustomers = async (count: number): Promise<CustomerModel[]> => {
   );
   return response.data;
 };
+const getCustomersByCity = async (city: string): Promise<CustomerModel[]> => {
+  const response = await axios.get(`${BASE_URL}/?City=${city}`);
+  return response.data;
+};
 export const customerService = {
   getAllCustomers,
   getCustomerById,
   createCustomer,
   deleteCustomer,
   getTopCustomers,
+  getCustomersByCity,
 };

@@ -1,0 +1,274 @@
+{
+  "customers": [
+    {
+      "CustomerId": 1,
+      "Name": "John Doe",
+      "City": "New York",
+      "ContactNumber": "1234567890",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/1.jpg",
+      "TotalPurchasesPerYear": 1200.75
+    },
+    {
+      "CustomerId": 2,
+      "Name": "Jane Smith",
+      "City": "Los Angeles",
+      "ContactNumber": "9876543210",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/2.jpg",
+      "TotalPurchasesPerYear": 1450.5
+    },
+    {
+      "CustomerId": 3,
+      "Name": "Michael Brown",
+      "City": "Chicago",
+      "ContactNumber": "5647382910",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/3.jpg",
+      "TotalPurchasesPerYear": 980.0
+    },
+    {
+      "CustomerId": 4,
+      "Name": "Emily Davis",
+      "City": "Houston",
+      "ContactNumber": "1029384756",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "TotalPurchasesPerYear": 2000.0
+    },
+    {
+      "CustomerId": 5,
+      "Name": "David Wilson",
+      "City": "Phoenix",
+      "ContactNumber": "0192837465",
+      "Year": 2021,
+      "Photo": "https://randomuser.me/api/portraits/men/5.jpg",
+      "TotalPurchasesPerYear": 750.3
+    },
+    {
+      "CustomerId": 6,
+      "Name": "Sophia Martinez",
+      "City": "San Diego",
+      "ContactNumber": "3456789123",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/6.jpg",
+      "TotalPurchasesPerYear": 2300.6
+    },
+    {
+      "CustomerId": 7,
+      "Name": "Liam Johnson",
+      "City": "Dallas",
+      "ContactNumber": "5678901234",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/7.jpg",
+      "TotalPurchasesPerYear": 1345.25
+    },
+    {
+      "CustomerId": 8,
+      "Name": "Isabella Garcia",
+      "City": "Austin",
+      "ContactNumber": "6789012345",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/8.jpg",
+      "TotalPurchasesPerYear": 1725.4
+    },
+    {
+      "CustomerId": 9,
+      "Name": "Noah Martinez",
+      "City": "San Jose",
+      "ContactNumber": "7890123456",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/9.jpg",
+      "TotalPurchasesPerYear": 890.6
+    },
+    {
+      "CustomerId": 10,
+      "Name": "Mia Hernandez",
+      "City": "Fort Worth",
+      "ContactNumber": "8901234567",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/women/10.jpg",
+      "TotalPurchasesPerYear": 2100.0
+    },
+    {
+      "CustomerId": 11,
+      "Name": "Ethan Moore",
+      "City": "Seattle",
+      "ContactNumber": "9012345678",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/11.jpg",
+      "TotalPurchasesPerYear": 1500.5
+    },
+    {
+      "CustomerId": 12,
+      "Name": "Ava Lee",
+      "City": "Denver",
+      "ContactNumber": "0123456789",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/12.jpg",
+      "TotalPurchasesPerYear": 1785.3
+    },
+    {
+      "CustomerId": 13,
+      "Name": "Oliver Taylor",
+      "City": "El Paso",
+      "ContactNumber": "2345678901",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/13.jpg",
+      "TotalPurchasesPerYear": 950.9
+    },
+    {
+      "CustomerId": 14,
+      "Name": "Charlotte Anderson",
+      "City": "Boston",
+      "ContactNumber": "3456789012",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/14.jpg",
+      "TotalPurchasesPerYear": 1870.0
+    },
+    {
+      "CustomerId": 15,
+      "Name": "James White",
+      "City": "Nashville",
+      "ContactNumber": "4567890123",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/15.jpg",
+      "TotalPurchasesPerYear": 1450.25
+    },
+    {
+      "CustomerId": 16,
+      "Name": "Amelia Martin",
+      "City": "Detroit",
+      "ContactNumber": "5678901234",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/16.jpg",
+      "TotalPurchasesPerYear": 1630.45
+    },
+    {
+      "CustomerId": 17,
+      "Name": "Benjamin Thomas",
+      "City": "Portland",
+      "ContactNumber": "6789012345",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/17.jpg",
+      "TotalPurchasesPerYear": 980.0
+    },
+    {
+      "CustomerId": 18,
+      "Name": "Harper Jackson",
+      "City": "Las Vegas",
+      "ContactNumber": "7890123456",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/18.jpg",
+      "TotalPurchasesPerYear": 1985.0
+    },
+    {
+      "CustomerId": 19,
+      "Name": "Lucas Gonzalez",
+      "City": "Memphis",
+      "ContactNumber": "8901234567",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/19.jpg",
+      "TotalPurchasesPerYear": 1750.75
+    },
+    {
+      "CustomerId": 20,
+      "Name": "Ella Harris",
+      "City": "Louisville",
+      "ContactNumber": "9012345678",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/20.jpg",
+      "TotalPurchasesPerYear": 1420.9
+    },
+    {
+      "CustomerId": 21,
+      "Name": "Mason Lewis",
+      "City": "Baltimore",
+      "ContactNumber": "0123456789",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/21.jpg",
+      "TotalPurchasesPerYear": 950.1
+    },
+    {
+      "CustomerId": 22,
+      "Name": "Luna Walker",
+      "City": "Milwaukee",
+      "ContactNumber": "1234567890",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/22.jpg",
+      "TotalPurchasesPerYear": 1825.25
+    },
+    {
+      "CustomerId": 23,
+      "Name": "Logan Hall",
+      "City": "Albuquerque",
+      "ContactNumber": "2345678901",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/23.jpg",
+      "TotalPurchasesPerYear": 1100.0
+    },
+    {
+      "CustomerId": 24,
+      "Name": "Grace Young",
+      "City": "Tucson",
+      "ContactNumber": "3456789012",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/24.jpg",
+      "TotalPurchasesPerYear": 2050.0
+    },
+    {
+      "CustomerId": 25,
+      "Name": "Alexander Allen",
+      "City": "Fresno",
+      "ContactNumber": "4567890123",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/25.jpg",
+      "TotalPurchasesPerYear": 1550.75
+    },
+    {
+      "CustomerId": 26,
+      "Name": "Victoria King",
+      "City": "Sacramento",
+      "ContactNumber": "5678901234",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/26.jpg",
+      "TotalPurchasesPerYear": 1900.25
+    },
+    {
+      "CustomerId": 27,
+      "Name": "Henry Scott",
+      "City": "Mesa",
+      "ContactNumber": "6789012345",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/27.jpg",
+      "TotalPurchasesPerYear": 1295.45
+    },
+    {
+      "CustomerId": 28,
+      "Name": "Scarlett Adams",
+      "City": "Kansas City",
+      "ContactNumber": "7890123456",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/women/28.jpg",
+      "TotalPurchasesPerYear": 1785.0
+    },
+    {
+      "CustomerId": 29,
+      "Name": "Jackson Clark",
+      "City": "Atlanta",
+      "ContactNumber": "8901234567",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/29.jpg",
+      "TotalPurchasesPerYear": 1250.0
+    },
+    {
+      "CustomerId": 30,
+      "Name": "Aria Nelson",
+      "City": "Omaha",
+      "ContactNumber": "9012345678",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/30.jpg",
+      "TotalPurchasesPerYear": 1500.2
+    }
+  ]
+}

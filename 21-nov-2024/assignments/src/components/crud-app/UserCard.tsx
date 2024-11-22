@@ -9,7 +9,8 @@ const CustomerCard: React.FC<{
     <div className="user-card">
       <img src={customer.Photo} alt="" />
       <h3>Name : {customer.Name}</h3>
-      <p>Contact : {customer.ContactNumber}</p>
+      <p>City : {customer.City}</p>
+
       <button onClick={() => handleDelete(customer.CustomerId)}>
         <MdDelete />
       </button>
