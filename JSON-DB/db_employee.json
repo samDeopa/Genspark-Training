@@ -1,0 +1,76 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "Name": "John Doe",
+      "City": "New Yorker",
+      "ContactNumber": "1234567890",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/men/1.jpg",
+      "Salary": 1200.75
+    },
+    {
+      "id": 2,
+      "Name": "Jane Smith",
+      "City": "New York",
+      "ContactNumber": "9876543210",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/2.jpg",
+      "Salary": 1450.5
+    },
+    {
+      "id": 3,
+      "Name": "Michael Brown",
+      "City": "New York",
+      "ContactNumber": "5647382910",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/3.jpg",
+      "Salary": 980
+    },
+    {
+      "id": 4,
+      "Name": "New York",
+      "City": "Houston",
+      "ContactNumber": "1029384756",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "Salary": 2000
+    },
+    {
+      "id": 5,
+      "Name": "David Wilson",
+      "City": "Phoenix",
+      "ContactNumber": "0192837465",
+      "Year": 2021,
+      "Photo": "https://randomuser.me/api/portraits/men/5.jpg",
+      "Salary": 750.3
+    },
+    {
+      "id": 6,
+      "Name": "Sophia Martinez",
+      "City": "San Diego",
+      "ContactNumber": "3456789123",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/6.jpg",
+      "Salary": 2300.6
+    },
+    {
+      "id": 7,
+      "Name": "Liam Johnson",
+      "City": "Dallas",
+      "ContactNumber": "5678901234",
+      "Year": 2022,
+      "Photo": "https://randomuser.me/api/portraits/men/7.jpg",
+      "Salary": 1345.25
+    },
+    {
+      "id": 8,
+      "Name": "Isabella Garcia",
+      "City": "Austin",
+      "ContactNumber": "6789012345",
+      "Year": 2023,
+      "Photo": "https://randomuser.me/api/portraits/women/8.jpg",
+      "Salary": 1725.4
+    }
+  ]
+}
